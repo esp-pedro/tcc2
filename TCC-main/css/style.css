@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+    background-color: white;
+    box-sizing: border-box;
+}
+#cabecalho{
+    height: 150px;
+}
+
+#menu{
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#menu ul {
+    list-style: none; /* tirar o formato de lista */
+}
+
+#menu li {
+	padding: 30px;
+	display: inline; /* deixar alinhado */ 
+}
+
+#menu ul li a{
+	text-decoration: none;
+    color: #713E5A; /* cor das letras do menu */
+}
+
+#menu li a:hover{
+	text-decoration: none; /* tirar o sublinhado dos links */
+    color: #FDCA40; /* cor do link quando eu passar o mouse*/
+    border-bottom: solid #713E5A 3px;
+    border-radius: 4px;
+}
+    
+#logo {
+        padding: 10px 0px;
+        display: block;
+        float: left;
+}
+
+#logo img {
+    display: block;
+}
+ 
+.sessao1 { /*conteudo 1*/
+    height: 700px; 
+}
+
+.cfoto {
+ height: 0;
+}
+
+.cfoto img {
+    width: 45%;
+    height: 640px;
+    object-fit: cover;
+    padding: 0px 0px;
+}
+
+
+.conteudo {
+    margin: 0px 200px 0px;
+    padding: 0px;
+    width: 400px;
+    float: right;
+    font-size: 30px;
+    color: #713E5A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.conteudo h1 {
+    padding-bottom: 25px;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    padding-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.sessao2 {
+    height: 700px;
+    color: #713E5A;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sessao2 h2 {
+    text-align: center;
+    color: #713E5A;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.sessao2 h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.mvv {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.missao {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.missao p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+}
+
+.visao {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.visao p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+}
+
+.valores {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+
+.valores p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+}
+
+.sessao3 {
+    height: 700px;
+    color: #713E5A;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+
+.mapa {
+    float: right;
+    padding-bottom: 25px;
+    margin-bottom: 0.5em;
+    padding-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+}
+
+#rodape {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
